@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "E-Learning Course Recommendation System Backend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "npm install"
+  },
+  "keywords": ["e-learning", "recommendation", "education", "courses"],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/e-learning-recommendation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/e-learning-recommendation/issues"
+  },
+  "homepage": "https://github.com/yourusername/e-learning-recommendation#readme"
+}
